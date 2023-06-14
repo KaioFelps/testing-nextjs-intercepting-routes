@@ -51,7 +51,7 @@ export default function FeedPage() {
           return (
             <Link
               key={story.stories[0].id}
-              href={`stories/${story.stories[0].id}`}
+              href={`/stories/${story.stories[0].id}`}
               className="p-8 rounded-xl bg-slate-800 shadow-lg shadow-black/25"
             >
               <span>{story.nickname}</span>
